@@ -36,9 +36,6 @@
 */
 
 
-
-
-
 *
 {
   margin: 0;
@@ -82,38 +79,6 @@ h2
 h3 
 {
   font-size: 2.75rem;
-}
-
-section
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding-top: 5rem;
-    min-height: 50vh;
-    border-bottom: 1px solid var(--color-grey-dark-3); 
-    background-color: #f1e7da;
-}
-section.full 
-{
-  min-height: 100vh;
-  max-height: 120vh;
-}
-section.medium 
-{
-  min-height: 75vh;
-}
-section.small,
-footer 
-{
-  min-height: 25vh;
-}
-footer 
-{
-  background-color: #000;
-  color: white;
-  text-align: center;
 }
 
 .container
@@ -171,6 +136,33 @@ footer
     border-bottom: 2px solid rgb(131,0,13);
     transform: scale(1.1);
 }
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5rem;
+    min-height: 50vh;
+    border-bottom: 1px solid var(--color-grey-dark-3); 
+    background-color: #f1e7da;
+}
+section.full 
+{
+  min-height: 100vh;
+  max-height: 120vh;
+}
+section.medium 
+{
+  min-height: 75vh;
+}
+section.small,
+footer 
+{
+  min-height: 25vh;
+}
+
 #home
 {
   display: -webkit-box;
@@ -258,10 +250,23 @@ footer
   padding-top: 1rem;
   transition: all .5s;
 }
+
 .btn:hover
 {
   transform: scale(1.1);
 }
+
+footer 
+{
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
 
 
 /* Twinkle stars */
@@ -336,8 +341,6 @@ footer
 {
   transform: translateX(50%) rotateZ(-45deg);
 }
-
-
 
 
 /* ----------------------------------------------- */
