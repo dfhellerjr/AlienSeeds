@@ -59,6 +59,7 @@ html
 body
 {
   font-family: 'Roboto', sans-serif;
+  xfont-family: 'Montserrat', san-serif; 
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.6;
@@ -162,6 +163,11 @@ footer
 {
   min-height: 25vh;
 }
+section h2
+{
+  xfont-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
+}
 
 #home
 {
@@ -194,11 +200,13 @@ footer
   xfont-family: 'Roboto', sans-serif;
   xfont-family: 'Cormorant Garamond', serif;
   font-family: 'Sriracha', cursive;
+  
   /*
   text-shadow: -1px 1px 2px #fff, 1px 1px 2px #fff, 1px -1px 0 #fff,
                -1px -1px 0 #fff;
   */
-               
+  
+              
   letter-spacing: .8rem;
   z-index: 10;
 }
@@ -330,7 +338,7 @@ footer
   position: absolute;
   content: "";
   right: 0;
-  height: 8px;
+  height: 7px;
   background: linear-gradient(-45deg, rgba(0,0,255,0),#5f91ff, rgba(0,0,255,0));
   border-radius: 100%;
   transform: translateX(50%) rotateZ(45deg);
@@ -356,6 +364,7 @@ footer
   30%
   {
     width: 18rem;
+    transform: translateY(5rem);
   }
   100%
   {
@@ -370,7 +379,7 @@ footer
   }
   30%
   {
-    width: 3rem;
+    width: 4.5rem;
   }
   100%
   {
