@@ -1,5 +1,6 @@
 
 /* Adapted from https://www.codeseek.co/KyleShaver/css-twinkling-stars-jARzzZ */
+/* Twinkling Stars */
 var divWidth = home.clientWidth-200;
 var divHeight = home.clientHeight *.6;
 var count = 0;
